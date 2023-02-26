@@ -8,7 +8,7 @@ public class Convert {
         eur = 50.00;
         exchangeRate = 1.06;
         double dol;
-        dol = (double) (eur * exchangeRate);
+        dol = eur * exchangeRate;
         return dol;
     }
 }
